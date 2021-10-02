@@ -1,0 +1,50 @@
+
+input[type="number" i] {
+    padding: 1px 2px;
+}
+.small-box{
+
+width: 100%;
+max-width: 600px;
+text-align: center;
+margin: 2rem 1rem;
+
+}
+
+
+form{
+    display: block;
+    margin-bottom: 1rem;
+}
+.box{
+    background-color: var(--blue);
+    border: 2px solid var(--dark-blue);
+    padding: 1rem;
+    margin: 1rem 1rem 1.5rem 0.2rem;
+    height: 2.5rem;
+    width: 3rem;
+    overflow: scroll;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+   
+}
+
+#submit{
+    border:1px solid var(--dark-blue);
+    border-radius:1rem;
+    padding:0.5rem 1rem;
+    width:5rem;
+    text-align: center;
+    background-color:var(--dark-blue);
+    color:white;
+    height:2.5rem;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+}
+
+#submit:hover{
+    background-color:var(--blue);
+    color:black;
+}

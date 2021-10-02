@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkHypo.css">
+    <link rel="stylesheet" href="common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="small-box">
+            <div class="backButton">
+                <i class="fas fa-chevron-left"></i><a href="index.html">Go Back</a>
+            </div>
+            <h1 id="heading">Enter the lengths of sides of right angle triangle</h1>
+            <div class="triangle">
+                <label for="lineSideA" class="label sideA" >a</label>
+                <label for="LineSideB" class="label sideB">b</label>
+                <label for="LineSideC" class="label sideC">c</label>
+                <div class="line LineSideA"></div>
+                <div class="line LineSideB"></div>
+                <div class="line LineSideC"></div>
+            </div>
+            <form id="formHyp">
+                 <label class="label" for="ow">a= <input type="number"   class="box ow"></label>
+                 <label class="label" for="ow1">b= <input type="number"  class="box ow1"></label>
+                 <button type="submit" id="submit">Submit</button>
+                </form>
+                <h2>Hypotenuse will be calculated here-</h2>
+            <div class="output">
+                c = √a^2+b^2 
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="checkHypo.js"></script>
+</html>

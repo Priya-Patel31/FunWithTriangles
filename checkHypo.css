@@ -1,0 +1,95 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+:root{
+    --blue:#3b82f6;
+    --dark-blue:#1e3a8a;
+}
+body{
+    background-image:url(images/bgTriangles.jpg);
+    min-height: 97vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    padding-top:5.5rem;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+#formHyp{ 
+    text-align: center;
+    
+}
+.output{
+    background-color: var(--blue);
+    border: 2px solid var(--dark-blue);
+    padding: 1rem;
+    margin: auto;
+    font-size:1.2rem;
+    font-weight:600;
+    height: 2.5rem;
+    width: 200px;
+    /* overflow: scroll; */
+    text-align: center;
+  
+   
+}
+.triangle{
+    position: relative;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 20px;
+}
+#text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+}
+.triangle label {
+    position: absolute;
+    font-size: 0.8rem;
+}
+.lineSideA{
+        width: 100px;
+        bottom: -102px;
+}
+.LineSideB{
+    width: 100px;
+    transform: rotate(90deg);
+    top: 50px;
+    left: -50px;
+}
+.LineSideC{
+    width: 141.42px;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -20px;
+}
+.line{position: relative;
+    bottom: -100px;
+}
+.triangle div{
+    height: 2px;
+    background-color: var(--dark-blue);
+}
+.sideA{
+    left: -15px;
+    top: 45px;
+}
+.sideB{
+    left: 45px;
+    top: 105px;
+
+}
+.sideC{
+    left: 50px;
+    top: 35px;
+}
+.label {
+    font-weight: bold;
+    display: inline-block;
+}

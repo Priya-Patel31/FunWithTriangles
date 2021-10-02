@@ -1,0 +1,29 @@
+
+.options{
+    display: block;
+}
+#sub-text{
+    text-align: center;
+}
+.formCalc{
+    text-align: center;
+   
+}
+#formTriangle{
+    text-align: center;
+    margin:auto;
+}
+.sub-text{
+   margin: 1rem auto; 
+   text-align: center;
+}
+.btn-calc{
+    background-color:var(--dark-blue);
+    color:white;
+    border-radius:1rem;
+    font-weight:600;
+    padding:0.5rem 1rem;
+    border:2px solid var(--dark-blue);
+   margin:1rem auto;
+   display: block;
+}   

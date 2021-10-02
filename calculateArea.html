@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="calculateArea.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="small-box">
+            <div class="backButton">
+                <i class="fas fa-chevron-left"></i><a href="index.html">Go Back</a>
+            </div>
+            <h1 id="heading">Calculate Area</h1>
+            <h3 id="sub-text">Select an option below as per the data you have for a triangle</h3>
+            <form class="form">
+                <div class="radio">
+                    <input type="radio"name = "option" id = "option1" value = "1" onclick="handleClickOne()"></input>
+                    <label for="option1">If you have base and height length</label>
+                    <br/>
+                    <input type="radio" name = "option" id = "option2" value = "2" onclick="handleClickTwo()"></input>
+                    <label for="option2">If you have length of 3 sides</label>
+                </div>
+
+                <div class="baseAndHeightDiv" id = "1" style = "display: none">
+                    <form id="formTriangle">
+                        Base = <input type="number" class="box box11" min="1" max="180" required>
+                        Height = <input type="number" class="box box21" min="1" max="180" required>
+                    </form>
+                    <button class="btn-calc" id="cal1">Calculate</button>
+                    <h2 class="sub-text">Output will be shown here </h2>
+                    <div class="outputHere or1">
+                        <div id="isTriangle ow1">Area = 1/2*base*height</div>
+                    </div>
+                </div>
+
+                <div class="3sidesDiv" id = "2" style = "display: none">
+                    <form id="formTriangle">
+                        a = <input type="number" class="box box12" min="1" max="180" required>
+                        b = <input type="number" class="box box22" min="1" max="180" required>
+                        c = <input type="number" class="box box32" min="1" max="180" required>
+                    </form>
+                    <button class="btn-calc" id="cal2">Calculate</button>
+                    <h2 class="sub-text">Output will be shown here </h2>
+                    <div class="outputHere or2">
+                        
+                        <div id="isTriangle ow2">Area = √s(s-a)(s-b)(s-c)</div>
+                    </div>
+                   
+                </div>
+               
+            </form>
+        </div>
+    </div>
+    <script src="calculateArea.js"></script>
+    <script>
+        function handleClickOne()
+        {
+           
+            document.getElementById("1").style.display = "block";
+            document.getElementById("2").style.display = "none";
+        }
+        function handleClickTwo()
+        {
+            document.getElementById("1").style.display = "none";
+            document.getElementById("2").style.display = "block";
+        }
+    </script>
+</body>
+</html>

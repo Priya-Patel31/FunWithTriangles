@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="small-box">
+            <div class="backButton">
+                <i class="fas fa-chevron-left"></i><a href="index.html">Go Back</a>
+            </div>
+            <h1 id="heading">Quiz on Triangles</h1>
+            <form class="form">
+                <div class="title-box">
+                    <label class="question">1. If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"   name="options1" value="Yes">Yes
+                            <input class="options-text" type="radio"  name="options1" value="No">No
+                        </label>
+                    </div>
+                   
+                </div>
+                <div class="title-box"><label class="question">2. If a triangle has angles 1150, 250, 400. Is it an acute triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options2" value="Yes">Yes
+                            <input class="options-text" type="radio"   name="options2" value="No">No
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">3. If a triangle has angles 900, 600, 300. Is it a right angle triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options3" value="Yes">Yes
+                            <input class="options-text" type="radio"   name="options3" value="No">No
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">4. A triangle has angles 600, 600, 600. Is it an equilateral triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options4" value="Yes">Yes
+                            <input class="options-text" type="radio"  name="options4"  value="No">No
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">5. If a triangle has angles 250, 750, 800. Is it an acute triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options5" value="Yes">Yes
+                            <input class="options-text" type="radio"  name="options5"  value="No">No
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">6. If a triangle has 2 sides with equal lengths and 750 angle between them. What is the type of triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio" name="options6" value="Equilateral">Equilateral
+                            <input class="options-text" type="radio"  name="options6" value="Isosceles"> Isosceles
+                            <input class="options-text" type="radio"  name="options6" value="Right Angle traingle">Right Angle traingle
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">7. If a triangle has 2 angles of 750. What is the measure of third angle in degree?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"   name="options7" value="25">25
+                            <input class="options-text" type="radio"  name="options7"  value="30">30
+                            <input class="options-text" type="radio"  name="options7"  value="15">15
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question" >8. If a triangle has 2 sides with equal lengths and 600 angle between them. What is the type of triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options8" value="Equilateral">Equilateral
+                            <input class="options-text" type="radio"   name="options8" value="Isosceles"> Isosceles
+                            <input class="options-text" type="radio"  name="options8" value="Both">  Both
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">9. The perimeter of an equilateral triangle is 15cm. What is the length of one side?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio"  name="options9" value=15cm >15cm
+                            <input class="options-text" type="radio"  name="options9"  value=45cm>45cm
+                            <input class="options-text" type="radio"  name="options9"  value=5cm>5cm
+                        </label>
+                    </div>
+                </div>
+                <div class="title-box"><label class="question">10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</label>
+                    <div class="options">
+                        <label for="options-text">
+                            <input class="options-text" type="radio" name="options10"  value="Equilateral">Equilateral
+                            <input class="options-text" type="radio"  name="options10" value="Isosceles"> Isosceles
+                            <input class="options-text" type="radio"  name="options10" value="Scalene"> Scalene
+                        </label>
+                    </div>
+                </div>
+                <button id="submit">Submit</button>
+            </form>
+            <h3 id="score">Score will be shown here-</h3>
+            <div class="outputHere">
+                <div id="isTriangle">Score: For each correct answer you will get 1 point</div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+<script src="quiz.js  "></script>
+</html>

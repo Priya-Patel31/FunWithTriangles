@@ -1,0 +1,23 @@
+:root{
+    --off-white:#60a5fa;
+}
+.container{
+    padding-top: 2rem;
+}
+.title-box{
+    max-width:40rem;
+    margin-bottom: 0.6rem;
+    padding:0.5rem 1rem;
+    background-color:var(--off-white);
+}
+.question{
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.options{
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+#score{
+    text-align: center;
+}

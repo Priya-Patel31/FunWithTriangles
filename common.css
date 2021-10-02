@@ -1,0 +1,83 @@
+*{
+    font-family:  sans-serif;
+}
+/* Montserrat Alternates' */
+:root{
+    --blue:#3c85fa;
+    --dark-blue:#1e3a8a;
+    --darker:#152c6b;
+}
+body{
+    background-image:linear-gradient(#2980B9,#6DD5FA,#FFFFFF);
+    min-height: 97vh;
+    background-size: 100% 100%;
+}
+#heading{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.container{
+    padding-top:7rem;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.backButton a{
+    font-weight: bold;
+    color: var(--primary-color);
+    }
+    .backButton a:hover{
+        border-bottom: 2.2px solid var(--primary-color);
+    }
+.backButton{
+    margin: 2rem auto 0rem;
+    color: var(--primary-color);
+    border-radius: 1.5rem;
+    background-color: white;
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+
+}
+
+.outputHere{
+    margin:auto;
+    border:2px solid var(--dark-blue);
+    background-color:var(--blue);
+    width:fit-content;
+    height:2rem;
+    padding:0.5rem;
+    font-weight: 600;
+   
+}
+#submit:hover{
+    background-color:var(--blue);
+    color:black;
+}
+.box{
+    background-color: var(--blue);
+    border: 2px solid var(--dark-blue);
+    padding: 1rem;
+    margin: 1rem 1rem 1.5rem 0.2rem;
+    height: 2.5rem;
+    width: 3rem;
+    overflow: scroll;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+   
+}
+#submit{
+    border:1px solid var(--dark-blue);
+    border-radius:1rem;
+    padding:0.5rem 1rem;
+    width:5rem;
+    text-align: center;
+    background-color:var(--dark-blue);
+    color:white;
+    height:2.5rem;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+}
+
